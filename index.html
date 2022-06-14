@@ -1,89 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--  -->
   <head>
     <meta charset="UTF-8" />
-    <title>Minh's Personal Site</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minh Thai</title>
+    <link rel="stylesheet" href="frontend/css/style.css" />
+    <link rel="icon" href="frontend/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
+    <div class="top-container">
+      <img class="top-cloud" src="frontend/images/cloud.png" alt="cloud-img" />
+      <h1>I'm Minh.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img
+        class="bottom-cloud"
+        src="frontend/images/cloud.png"
+        alt="cloud-img"
+      />
+      <img src="frontend/images/mountain.png" alt="mountain-img" />
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img src="frontend/images/profile-circle.png" alt="profile-image" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I am a Web Developer. I enjoy learning new things each day I wake up.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+
+        <div class="skill-row__1">
           <img
-            src="https://cdn.discordapp.com/attachments/813600101469126726/981778074456715304/profile-modified.png"
-            alt="minh's profile picture"
+            class="code-img"
+            src="frontend/images/web-development-circle.png"
+            alt=""
           />
-        </td>
-        <td>
-          <h1>Minh Thai</h1>
+          <h3>Design and Development</h3>
           <p>
-            <em>Web Developer</em> at
-            <strong
-              ><a href="https://www.purchase.edu/">SUNY Purchase</a></strong
-            >
+            I started learning to code when I went to my Community College
+            because I wanted to create softwares and websites. Over time, I have
+            gained a wealth of experience designing and developing web
+            applications.
           </p>
+        </div>
+
+        <div class="skill-row__2">
+          <img
+            class="barista-img"
+            src="frontend/images/barista-circle.png"
+            alt=""
+          />
+          <h3>Barista</h3>
           <p>
-            I am Web Developer. I enjoy learning new techs throughout the day.
+            I started my first job as a barista and customer service at Kung Fu
+            Tea when I was 18 years old. After 6 years as a barista, I have
+            gained experience and skill in making drinks.
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you enjoy a good time with some drinks</h3>
+        <p class="contact-message">
+          Love to drink as much as I do? We can grab a drink after a coding
+          session!
+        </p>
+        <a class="btn" href="mailto:minhthai.university@gmail.com"
+          >CONTACT ME</a
+        >
+      </div>
+    </div>
 
-    <hr />
-    <h3>Education</h3>
-    <ul>
-      <li>Rockland Community College, 2019</li>
-      <li>SUNY Purchase, 2022</li>
-    </ul>
-    <hr />
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>2016-2022</td>
-          <td>Manager at Kung Fu Tea</td>
-        </tr>
-        <tr>
-          <td>2010</td>
-          <td>Kitchen Prep at Cinnabon</td>
-        </tr>
-      </tbody>
-
-      <tfoot>
-        <!--  -->
-      </tfoot>
-    </table>
-    <hr />
-
-    <h3><strong>Skills</strong></h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Java</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Javascript</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>User Interface Design</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>Adobe Suite</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-    </table>
-    <hr />
-    <a href="frontend/hobbies.html">My Hobbies</a>
-    <a href="frontend/contact.html">Contact Me</a>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© Minh Thai.</p>
+    </div>
   </body>
 </html>
